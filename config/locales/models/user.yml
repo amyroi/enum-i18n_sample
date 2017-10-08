@@ -1,0 +1,10 @@
+# Userモデルの国際化ファイル
+# 下記値は仮
+---
+ja:
+  activerecord:
+    enum:
+      user:
+        gender:
+          male: 男性
+          female: 女性
