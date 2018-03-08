@@ -2,13 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/release 
-permissions:
-  - object: /home/release 
-    pattern: "**"
-    owner: ec2-user
-    group: ec2-user
-hooks:
-  ApplicationStart:
-    - location: scripts/codedeploy_start.sh
-      timeout: 180
+    destination: /var/www/sample/
